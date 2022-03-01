@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(219, 233, 236);
+    color: rgb(0, 0, 0);
+    
+}
+  
+
+.dark {
+    background-color: rgb(27, 27, 27);
+    color: rgb(58, 57, 57);
+} 
+
+.sidenav {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav a:hover {
+    color: #ffffff;
+}
+.sidenav button{
+    border: none;
+    border-radius: 50px;
+    background-color: aqua;
+    padding: 10px;
+    margin-left: 20px;
+}
+.sidenav button:hover{
+    background-color: rgb(169, 224, 214);
+}
+.sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.sec-left1, .sec-left2, .sec-left3,
+.sec-left4 {
+border-radius: 2%;
+margin: 5px;
+}
+p{
+    font-size: small;
+}
+.sec-left1 {
+    background-color: rgb(144, 40, 192);
+    padding: 20px;
+    color: #ffffff;
+ 
+}
+.sec-left2{
+    background-color: #706969;
+    padding: 20px;
+    color: #ffffff;
+
+}
+.sec-left3{
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 1px 2px 3px 1px rgb(173, 171, 171);
+    
+}
+.sec-left4 {
+    background-color: rgb(32, 31, 53);
+    padding: 20px;
+    color: #ffffff;
+
+}
+
+.right{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 2%;
+    box-shadow: 1px 2px 3px 1px rgb(173, 171, 171);
+
+    
+}
+.sec1, .sec2{
+    display: flex;
+}
+
+img{
+    border-radius: 50%;
+    width: 30px;
+    height: 20px;
+    box-shadow: 1px 1px 2px snow;
+}
+.img1, .img2, .img3, .img4, .img5{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    
+    
+}
+.hpp{
+    margin-left: 20px;
+}
+
+
+ 
+@media (min-width: 576px) { 
+    .row{
+        flex-wrap: nowrap;
+    }
+ }
+
+ 
+@media (min-width: 768px) { 
+    .row{
+        flex-wrap: nowrap;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
