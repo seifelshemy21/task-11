@@ -43,3 +43,23 @@ function showTime() {
     setTimeout(showTime, "1000")
 }
 showTime();
+
+var yourName =prompt("What is your Name");
+if(yourName){
+    document.getElementById("h2Name").innerHTML = "Hello : " +  yourName ;
+} else{
+    document.getElementById("h2Name").innerHTML = "Hello : " + " member" ;
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll("button").forEach(function(buton) {
+        buton.onclick = function() {
+            document.querySelector("#bacolor1").style.color = buton.dataset.color;
+            document.querySelector("#bacolor2").style.color = buton.dataset.color;
+            document.querySelector("#bacolor3").style.color = buton.dataset.color;
+            document.querySelector("#bacolor4").style.color = buton.dataset.color;
+            document.querySelector("#bacolor5").style.color = buton.dataset.color;
+
+        }
+    })
+})
