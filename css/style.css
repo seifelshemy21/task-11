@@ -7,7 +7,6 @@ body {
 
 .dark {
     background-color: rgb(27, 27, 27);
-    color: rgb(58, 57, 57);
 } 
 
 .sidenav {
@@ -37,14 +36,14 @@ body {
 .sidenav a:hover {
     color: #ffffff;
 }
-.sidenav button{
+.sidenav input{
     border: none;
     border-radius: 50px;
     background-color: aqua;
     padding: 10px;
     margin-left: 20px;
 }
-.sidenav button:hover{
+.sidenav input:hover{
     background-color: rgb(169, 224, 214);
 }
 .sidenav .close {
@@ -53,6 +52,12 @@ body {
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+} 
+.h22{
+    text-align: center;
+    color: #ff00dd;
+    font-weight: bold;
+
 }
 .sec-left1, .sec-left2, .sec-left3,
 .sec-left4 {
@@ -116,6 +121,19 @@ img{
     margin-left: 20px;
 }
 
+.butt{
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    background-color: red;
+    padding: 10px;
+    margin-left: 20px;
+}
+.butt:hover{
+    background-color: rgb(236, 84, 84);
+}
+
 
  
 @media (min-width: 576px) { 
@@ -130,6 +148,21 @@ img{
         flex-wrap: nowrap;
     }
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
